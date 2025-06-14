@@ -1,15 +1,219 @@
+# Dependencies
 /node_modules
+/vendor
+
+# Laravel specific
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/app/public/*
+/bootstrap/cache/*.php
+
+# Environment files
 .env
 .env.backup
+.env.production
+.env.local
+.env.*.local
+
+# Testing
 .phpunit.result.cache
-docker-compose.override.yml
 Homestead.json
 Homestead.yaml
-npm-debug.log
-yarn-error.log
+docker-compose.override.yml
+/tests/coverage/
+/coverage/
+/.phpunit.cache
+
+# Build files
+/public/build
+/public/mix-manifest.json
+/public/css/app.css
+/public/js/app.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE and Editor files
 /.idea
 /.vscode
+*.swp
+*.swo
+*~
+.project
+.settings/
+.buildpath
+.sublime-project
+.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+*.diff
+*.patch
+*.orig
+*.rej
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Node.js
+.npm
+.eslintcache
+node_modules/
+jspm_packages/
+
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Laravel Sail
+docker-compose.override.yml
+/.sail
+
+# Laravel Telescope
+/public/vendor/telescope/
+
+# Laravel Horizon
+/public/vendor/horizon/
+
+# Security
+*.pem
+*.key
+*.p12
+*.crt
+*.cert
+*.der
+
+# Laravel Mix
+/public/css/
+/public/js/
+/public/fonts/
+/public/images/
+mix-manifest.json
+
+# Deployment
+/deploy.php
+/deployment/
+/.deployer/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Laravel specific logs
+storage/logs/laravel.log
+
+# PHP Storm
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Laravel package discovery
+/bootstrap/cache/packages.php
+/bootstrap/cache/services.php
+
+# Laravel Nova (if used)
+/nova/
+
+# Livewire temp files
+/storage/app/livewire-tmp/
+
+# Debugbar (if used)
+/storage/debugbar/
+
+# Ignition (error page)
+/storage/logs/
+
+# Custom application files
+/storage/app/avatars/
+/storage/app/uploads/
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
